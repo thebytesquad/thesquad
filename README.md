@@ -181,7 +181,7 @@ margin: 10px 0 0 0;
 <p>The Byte Squad is also dedicated to promoting inclusivity and diversity within the tech industry. We believe that a diverse community is a stronger community, and we are committed to creating an environment where everyone feels welcome and valued. Regardless of your background or experience level, you'll find a supportive and inclusive community at The Byte Squad.</p>
 
 <p>Join us today and become part of a vibrant community that's at the forefront of technological innovation. Together, we can shape the future of technology and make a lasting impact on the world. Welcome to The Byte Squad, where innovation meets collaboration.</p>
-<a href="(https://discord.gg/CN7TaKbmqc)" target="_blank">Join Our Discord Server</a>
+<a href="(https://discord.gg/CN7TaKbmqc)" >Join Our Discord Server</a>
 </div>
 </section>
 
