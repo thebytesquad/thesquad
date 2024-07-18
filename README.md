@@ -8,137 +8,138 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 <style>
 body {
-  font-family: 'Roboto', sans-serif;
-  background: #121212;
-  color: #fff;
-  margin: 0;
-  padding: 0;
+font-family: 'Roboto', sans-serif;
+background: #121212;
+color: #fff;
+margin: 0;
+padding: 0;
 }
 header {
-  text-align: center;
-  background-color: #1f1f1f;
-  color: white;
-  padding: 20px 0;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
+text-align: center;
+background-color: #1f1f1f;
+color: white;
+padding: 20px 0;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px);
 }
 .navbar {
-  display: flex;
-  justify-content: center;
-  background: #1f1f1f;
-  padding: 10px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+display: flex;
+justify-content: center;
+background: #1f1f1f;
+padding: 10px;
+box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 }
 .navbar a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.1em;
-  padding: 10px 20px;
-  transition: background 0.3s, color 0.3s;
+color: #fff;
+text-decoration: none;
+font-size: 1.1em;
+padding: 10px 20px;
+transition: background 0.3s, color 0.3s;
 }
 .navbar a:hover {
-  background: #4CAF50;
-  color: #fff;
-  border-radius: 5px;
+background: #4CAF50;
+color: #fff;
+border-radius: 5px;
 }
 .container {
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
+width: 80%;
+margin: auto;
+overflow: hidden;
 }
 .section {
-  background: #1e1e1e;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  color: #ccc;
-  animation: slideUp 1s ease-out both;
-  transform: translateY(50px);
-  opacity: 0;
+background: #1e1e1e;
+padding: 20px;
+margin-bottom: 20px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+border-radius: 15px;
+color: #ccc;
+animation: slideUp 1s ease-out both;
+transform: translateY(50px);
+opacity: 0;
 }
 .section h2, .section h3 {
-  color: #4CAF50;
+color: #4CAF50;
 }
 .section p {
-  line-height: 1.6;
-  color: #bbb;
+line-height: 1.6;
+color: #bbb;
 }
 .section a {
-  color: #4CAF50;
-  text-decoration: none;
-  font-weight: bold;
+color: #4CAF50;
+text-decoration: none;
+font-weight: bold;
 }
 .card {
-  border: 1px solid #333;
-  border-radius: 15px;
-  margin-bottom: 20px;
-  padding: 20px;
-  background-color: #2a2a2a;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+border: 1px solid #333;
+border-radius: 15px;
+margin-bottom: 20px;
+padding: 20px;
+background-color: #2a2a2a;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 .section .image-card img {
-  width: 100%;
-  border-radius: 15px;
+width: 100%;
+border-radius: 15px;
 }
 @keyframes slideUp {
-  0% {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
+0% {
+transform: translateY(50px);
+opacity: 0;
+}
+100% {
+transform: translateY(0);
+opacity: 1;
+}
 }
 .fade-in {
-  opacity: 0;
-  animation: fadeIn 1s ease-in-out forwards;
+opacity: 0;
+animation: fadeIn 1s ease-in-out forwards;
 }
 @keyframes fadeIn {
-  0% {opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
 }
 .hero {
-  background: rgba(0, 0, 0, 0.7);
-  padding: 100px 20px;
-  text-align: center;
-  color: #fff;
+background: rgba(0, 0, 0, 0.7);
+padding: 100px 20px;
+text-align: center;
+color: #fff;
 }
 .hero h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
+font-size: 2.5em;
+margin-bottom: 20px;
 }
 .hero p {
-  font-size: 1.2em;
-  line-height: 1.6;
-  margin-bottom: 20px;
+font-size: 1.2em;
+line-height: 1.6;
+margin-bottom: 20px;
 }
 .hero a {
-  background: #4CAF50;
-  color: #fff;
-  padding: 12px 25px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-size: 1.1em;
+background: #4CAF50;
+color: #fff;
+padding: 12px 25px;
+border-radius: 25px;
+text-decoration: none;
+font-size: 1.1em;
 }
 .footer {
-  background: #1f1f1f;
-  padding: 20px;
-  text-align: center;
-  color: #fff;
+background: #1f1f1f;
+padding: 20px;
+text-align: center;
+color: #fff;
 }
 .footer a {
-  color: #4CAF50;
-  text-decoration: none;
-  margin: 0 10px;
-  font-size: 1.2em;
+color: #4CAF50;
+text-decoration: none;
+margin: 0 10px;
+font-size: 1.2em;
 }
 .footer p {
-  margin: 10px 0 0 0;
+margin: 10px 0 0 0;
 }
 </style>
 </head>
@@ -146,14 +147,14 @@ header {
 
 <header>
 <div class="navbar">
-  <a href="#about">About</a>
-  <a href="#terms">Terms</a>
-  <a href="#privacy">Privacy</a>
-  <a href="#apps">Apps</a>
-  <a href="#partnerships">Partnerships</a>
-  <a href="#team">Team</a>
-  <a href="#faq">FAQ</a>
-  <a href="#contact">Contact</a>
+<a href="#about">About</a>
+<a href="#terms">Terms</a>
+<a href="#privacy">Privacy</a>
+<a href="#apps">Apps</a>
+<a href="#partnerships">Partnerships</a>
+<a href="#team">Team</a>
+<a href="#faq">FAQ</a>
+<a href="#contact">Contact</a>
 </div>
 <h1>Welcome to The Byte Squad</h1>
 <p>Your go-to hub for digital excellence</p>
@@ -200,11 +201,11 @@ header {
 <div class="card">
 <p>Our mission at The Byte Squad is to create a collaborative environment where tech enthusiasts can thrive. We aim to:</p>
 <ul>
-  <li>Foster a culture of continuous learning and knowledge sharing.</li>
-  <li>Encourage innovation and creative problem-solving.</li>
-  <li>Provide resources and support for career development.</li>
-  <li>Promote inclusivity and diversity within the tech industry.</li>
-  <li>Facilitate connections and networking opportunities among members.</li>
+<li>Foster a culture of continuous learning and knowledge sharing.</li>
+<li>Encourage innovation and creative problem-solving.</li>
+<li>Provide resources and support for career development.</li>
+<li>Promote inclusivity and diversity within the tech industry.</li>
+<li>Facilitate connections and networking opportunities among members.</li>
 </ul>
 <p>We believe that by achieving these objectives, we can help shape the future of technology for the better.</p>
 </div>
@@ -215,11 +216,11 @@ header {
 <div class="card">
 <p>Our core values at The Byte Squad guide everything we do:</p>
 <ul>
-  <li><strong>Collaboration:</strong> We believe in the power of working together to achieve great things.</li>
-  <li><strong>Innovation:</strong> We're committed to pushing the boundaries of what's possible with technology.</li>
-  <li><strong>Inclusivity:</strong> We strive to create a welcoming and diverse community for all.</li>
-  <li><strong>Integrity:</strong> We operate with honesty and transparency in all our endeavors.</li>
-  <li><strong>Excellence:</strong> We're dedicated to achieving the highest standards in everything we do.</li>
+<li><strong>Collaboration:</strong> We believe in the power of working together to achieve great things.</li>
+<li><strong>Innovation:</strong> We're committed to pushing the boundaries of what's possible with technology.</li>
+<li><strong>Inclusivity:</strong> We strive to create a welcoming and diverse community for all.</li>
+<li><strong>Integrity:</strong> We operate with honesty and transparency in all our endeavors.</li>
+<li><strong>Excellence:</strong> We're dedicated to achieving the highest standards in everything we do.</li>
 </ul>
 <p>These values are at the heart of our community and drive us to continuously improve and innovate.</p>
 </div>
@@ -247,7 +248,7 @@ header {
 <p>The Byte Squad will not be liable for any damages arising from the use or inability to use the website or from any content posted on the site.</p>
 
 <h3>7. Refund Policy</h3>
-<p>We offer refunds for purchases made through our website or discord server within 24 hours of the transaction. To request a refund, please contact our support team with your purchase details.</p>
+<p>We offer refunds for purchases made through our website within 24 hours of the transaction. To request a refund, please contact our support team with your purchase details.</p>
 
 <h3>8. Changes to Terms</h3>
 <p>We reserve the right to revise these terms and conditions at any time. Users are encouraged to review the terms periodically to stay informed of updates.</p>
@@ -299,6 +300,9 @@ header {
 <h3>Byte Helper</h3>
 <p>Byte Helper offers top-notch technical support and solutions to keep your digital life running smoothly, whether it's troubleshooting issues or optimizing performance.</p>
 
+<h3>TechTalk</h3>
+<p>Join live discussions and webinars with industry experts on the latest trends and innovations in technology.</p>
+
 <h3>CodeMaster</h3>
 <p>Enhance your coding skills with interactive lessons, challenges, and peer reviews.</p>
 </div>
@@ -310,10 +314,10 @@ header {
 <p>We partner with the best in the industry to bring you unparalleled resources, exclusive content, and cutting-edge technology solutions. Explore the partnerships that empower The Byte Squad to excel and innovate.</p>
 <p>Our partners include:</p>
 <ul>
-  <li>Major tech companies providing cutting-edge software and tools.</li>
-  <li>Educational institutions offering exclusive courses and certifications.</li>
+<li>Major tech companies providing cutting-edge software and tools.</li>
+<li>Educational institutions offering exclusive courses and certifications.</li>
 <li>Industry experts delivering insightful webinars and workshops.</li>
-  <li>Non-profits advancing inclusivity and diversity in tech.</li>
+<li>Non-profits advancing inclusivity and diversity in tech.</li>
 </ul>
 </div>
 </section>
@@ -323,11 +327,11 @@ header {
 <div class="card">
 <p>Our team consists of passionate individuals with diverse expertise in various fields of technology. Get to know the personalities driving The Byte Squad to new heights. Our team members include:</p>
 <ul>
-  <li><strong>Aditya parmar:</strong> Founder & CEO – Visionary leader with a background in software engineering.</li>
-  <li><strong>Tanishk:</strong> CTO – Expert in bringing out new ideas.</li>
-  <li><strong>Zara:</strong> Head of Marketing – Creative strategist with a focus on digital marketing and brand development.</li>
-  <li><strong>ByteHelper:</strong> Community Manager – Dedicated to fostering a supportive and engaging community environment.</li>
-  <li><strong>CodeMaster:</strong> Lead Developer – Specialist in web and mobile app development with a knack for solving complex problems.</li>
+<li><strong>Alice Johnson:</strong> Founder & CEO – Visionary leader with a background in software engineering and business strategy.</li>
+<li><strong>Bob Smith:</strong> CTO – Expert in cybersecurity and innovative tech solutions.</li>
+<li><strong>Charlie Brown:</strong> Head of Marketing – Creative strategist with a focus on digital marketing and brand development.</li>
+<li><strong>Denise White:</strong> Community Manager – Dedicated to fostering a supportive and engaging community environment.</li>
+<li><strong>Edward King:</strong> Lead Developer – Specialist in web and mobile app development with a knack for solving complex problems.</li>
 </ul>
 </div>
 </section>
@@ -337,6 +341,8 @@ header {
 <div class="card">
 <p>If you have any questions, feel free to reach out to us at:</p>
 <p>Email: <strong>thebytesquadofficial@gmail.com</strong></p>
+<p>Phone: <strong>+123-456-7890</strong></p>
+<p>Address: <strong>123 Techie Lane, Silicon Valley, CA, USA</strong></p>
 </div>
 </section>
 
@@ -374,7 +380,7 @@ header {
 <a href="#terms">Terms</a>
 <a href="#privacy">Privacy</a>
 <a href="#apps">Apps</a>
-<a href="#partnerships">Partnerships</a>
+<a href="# #partnerships">Partnerships</a>
 <a href="#team">Team</a>
 <a href="#faq">FAQ</a>
 <a href="#contact">Contact</a>
