@@ -9,14 +9,15 @@
 <style>
 body {
 font-family: 'Arial', sans-serif;
-background-color: #f5f5f5;
+background: url('https://files.shapes.inc/c47d2c53.png') no-repeat center center fixed;
+background-size: cover;
 margin: 0;
 padding: 0;
-color: #333;
+color: #fff;
 }
 header {
 text-align: center;
-background-color: #4CAF50;
+background-color: rgba(76, 175, 80, 0.7);
 color: white;
 padding: 20px 0;
 }
@@ -26,13 +27,14 @@ margin: auto;
 overflow: hidden;
 }
 #terms, #privacy, #contact, #apps {
-background: white;
+background: rgba(255, 255, 255, 0.9);
 padding: 20px;
 margin-bottom: 20px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 border-radius: 10px;
 opacity: 0;
 animation: fadeIn 1s ease-in-out forwards;
+color: #333;
 }
 h2, h3 {
 color: #333;
