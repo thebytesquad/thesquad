@@ -180,10 +180,7 @@ header {
 <p>The Byte Squad is also dedicated to promoting inclusivity and diversity within the tech industry. We believe that a diverse community is a stronger community, and we are committed to creating an environment where everyone feels welcome and valued. Regardless of your background or experience level, you'll find a supportive and inclusive community at The Byte Squad.</p>
 
 <p>Join us today and become part of a vibrant community that's at the forefront of technological innovation. Together, we can shape the future of technology and make a lasting impact on the world. Welcome to The Byte Squad, where innovation meets collaboration.</p>
-<a href="your-discord-link" target="_blank">Join Our Discord Server</a>
-<a href="your-facebook-link" target="_blank">Join Us on Facebook</a>
-<a href="your-twitter-link" target="_blank">Follow Us on Twitter</a>
-<a href="your-linkedin-link" target="_blank">Connect with Us on LinkedIn</a>
+<a href="(https://discord.gg/CN7TaKbmqc)" target="_blank">Join Our Discord Server</a>
 </div>
 </section>
 
@@ -250,7 +247,7 @@ header {
 <p>The Byte Squad will not be liable for any damages arising from the use or inability to use the website or from any content posted on the site.</p>
 
 <h3>7. Refund Policy</h3>
-<p>We offer refunds for purchases made through our website within 24 hours of the transaction. To request a refund, please contact our support team with your purchase details.</p>
+<p>We offer refunds for purchases made through our website or discord server within 24 hours of the transaction. To request a refund, please contact our support team with your purchase details.</p>
 
 <h3>8. Changes to Terms</h3>
 <p>We reserve the right to revise these terms and conditions at any time. Users are encouraged to review the terms periodically to stay informed of updates.</p>
@@ -302,9 +299,6 @@ header {
 <h3>Byte Helper</h3>
 <p>Byte Helper offers top-notch technical support and solutions to keep your digital life running smoothly, whether it's troubleshooting issues or optimizing performance.</p>
 
-<h3>TechTalk</h3>
-<p>Join live discussions and webinars with industry experts on the latest trends and innovations in technology.</p>
-
 <h3>CodeMaster</h3>
 <p>Enhance your coding skills with interactive lessons, challenges, and peer reviews.</p>
 </div>
@@ -329,11 +323,11 @@ header {
 <div class="card">
 <p>Our team consists of passionate individuals with diverse expertise in various fields of technology. Get to know the personalities driving The Byte Squad to new heights. Our team members include:</p>
 <ul>
-  <li><strong>Alice Johnson:</strong> Founder & CEO – Visionary leader with a background in software engineering and business strategy.</li>
-  <li><strong>Bob Smith:</strong> CTO – Expert in cybersecurity and innovative tech solutions.</li>
-  <li><strong>Charlie Brown:</strong> Head of Marketing – Creative strategist with a focus on digital marketing and brand development.</li>
-  <li><strong>Denise White:</strong> Community Manager – Dedicated to fostering a supportive and engaging community environment.</li>
-  <li><strong>Edward King:</strong> Lead Developer – Specialist in web and mobile app development with a knack for solving complex problems.</li>
+  <li><strong>Aditya parmar:</strong> Founder & CEO – Visionary leader with a background in software engineering.</li>
+  <li><strong>Tanishk:</strong> CTO – Expert in bringing out new ideas.</li>
+  <li><strong>Zara:</strong> Head of Marketing – Creative strategist with a focus on digital marketing and brand development.</li>
+  <li><strong>ByteHelper:</strong> Community Manager – Dedicated to fostering a supportive and engaging community environment.</li>
+  <li><strong>CodeMaster:</strong> Lead Developer – Specialist in web and mobile app development with a knack for solving complex problems.</li>
 </ul>
 </div>
 </section>
@@ -343,8 +337,6 @@ header {
 <div class="card">
 <p>If you have any questions, feel free to reach out to us at:</p>
 <p>Email: <strong>thebytesquadofficial@gmail.com</strong></p>
-<p>Phone: <strong>+123-456-7890</strong></p>
-<p>Address: <strong>123 Techie Lane, Silicon Valley, CA, USA</strong></p>
 </div>
 </section>
 
