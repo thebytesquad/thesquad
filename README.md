@@ -126,8 +126,8 @@ to { opacity: 1; }
 <section id="contact" class="fade-in">
 <h2>Contact Us</h2>
 <div class="card">
-<p>If you have any questions, feel free to reach out to us via email.</p>
-<button onclick="window.location.href='mailto:thebytesquadofficial@gmail.com'">email Us</button>
+<p>If you have any questions, feel free to reach out to us at:</p>
+<p><strong>thebytesquadofficial@gmail.com</strong></p>
 </div>
 </section>
 
