@@ -8,52 +8,15 @@
 body, html {
 margin: 0;
 padding: 0;
-overflow: hidden;
 font-family: Arial, sans-serif;
-background-color: #1a1a1a;
-color: #ccc;
-}
-.intro {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-background-color: #282c34;
-}
-.logo-animation {
-opacity: 0;
-animation: fadeIn 2s forwards, bounce 2s 2s;
-}
-.logo {
-width: 200px;
-cursor: pointer;
-}
-@keyframes fadeIn {
-to { opacity: 1; }
-}
-@keyframes bounce {
-0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-40% { transform: translateY(-30px); }
-60% { transform: translateY(-15px); }
-}
-.main-content {
-display: none;
-opacity: 0;
+background-color: #121212;
+color: #dcdcdc;
 overflow: auto;
-height: 100vh;
-background-color: #1a1a1a;
-}
-.show {
-display: block;
-animation: fadeInMain 1s forwards;
-}
-@keyframes fadeInMain {
-to { opacity: 1; }
 }
 header {
 background-color: #333;
 color: white;
-padding: 10px;
+padding: 15px;
 text-align: center;
 }
 nav ul {
@@ -72,49 +35,60 @@ text-decoration: none;
 font-weight: bold;
 }
 section {
-padding: 50px 20px;
+padding: 60px 20px;
 text-align: center;
 }
 #hero {
-background-color: #282c34;
+background-color: #1a1a1a;
+animation: fadeIn 1s forwards;
 }
 #features {
-background-color: #333;
-color: #ccc;
+background-color: #2a2a2a;
+animation: slideIn 1s forwards;
 }
 #partnerships, #faq, #terms, #privacy, #contact {
-background-color: #414141;
-color: #ccc;
+background-color: #333;
+color: #dcdcdc;
+animation: zoomIn 1s forwards;
 }
 footer {
-background-color: #333;
+background-color: #212121;
 color: white;
 text-align: center;
-padding: 10px;
+padding: 15px;
 position: relative;
 bottom: 0;
 }
 #terms, #privacy {
-padding: 20px;
+padding: 30px;
 text-align: left;
+}
+@keyframes fadeIn {
+from { opacity: 0; }
+to { opacity: 1; }
+}
+@keyframes slideIn {
+from { transform: translateX(-100%); }
+to { transform: translateX(0); }
+}
+@keyframes zoomIn {
+from { transform: scale(0); }
+to { transform: scale(1); }
+}
+#bio {
+padding: 50px 20px;
+background-color: #1a1a1a;
+animation: fadeIn 2s forwards;
 }
 </style>
 </head>
 <body>
 
-<div id="intro" class="intro">
-<div class="logo-animation">
-<img src="https://files.shapes.inc/928b31fe.png" alt="The Byte Squad Logo" class="logo">
-</div>
-</div>
-
-<div id="main-content" class="main-content hide">
 <header>
 <h1>The Byte Squad</h1>
 <nav>
 <ul>
 <li><a href="#bio">About Us</a></li>
-<li><a href="#features">Features</a></li>
 <li><a href="#features">Features</a></li>
 <li><a href="#partnerships">Partnerships</a></li>
 <li><a href="#faq">FAQ</a></li>
@@ -125,9 +99,9 @@ text-align: left;
 </nav>
 </header>
 
-<section id="hero">
-<h1>Welcome to The Byte Squad</h1>
-<p>Your coding journey starts here.</p>
+<section id="bio">
+<h2>About The Byte Squad</h2>
+<p>The Byte Squad is a collective of passionate coders dedicated to elevating the coding experience through innovative solutions and engaging community activities. Since our inception, we've strived to create an environment where both novice and experienced programmers can thrive. Our cutting-edge features are designed to simplify complex coding tasks and our numerous partnerships with industry leaders provide unique opportunities for growth and collaboration. At The Byte Squad, we believe that the path to coding excellence is paved with support, education, and a bit of fun. Join our community and take your coding skills to the next level with exclusive access to resources, tutorials, and events. Our commitment is to foster a collaborative atmosphere where each member feels empowered to explore, innovate, and achieve their full potential. Welcome to The Byte Squad – where your coding journey begins. For more information and to join our Discord server, visit The Byte Squad Discord.</p>
 </section>
 
 <section id="features">
@@ -166,24 +140,23 @@ text-align: left;
 <footer>
 <p>&copy; 2024 The Byte Squad. All rights reserved. <br> <a href="https://discord.gg/your-server-link">Join our Discord Server</a></p>
 </footer>
-</div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-const intro = document.getElementById('intro');
-const mainContent = document.getElementById('main-content');
-document.querySelector('.logo').addEventListener('click', function () {
-intro.style.animation = 'fadeOut 1s forwards';
-setTimeout(() => {
-intro.style.display = 'none';
-mainContent.classList.remove('hide');
-mainContent.classList.add('show');
-}, 1000);
+document.addEventListener('DOMContentLoaded', () => {
+const sections = document.querySelectorAll('section');
+sections.forEach(section => {
+section.style.opacity = 0;
 });
-});
-@keyframes fadeOut {
-to { opacity: 0; }
+window.addEventListener('scroll', () => {
+sections.forEach(section => {
+const rect = section.getBoundingClientRect();
+if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+section.style.opacity = 1;
+section.style.transition = 'opacity 1s';
 }
+});
+});
+});
 </script>
 
 </body>
