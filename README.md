@@ -104,7 +104,7 @@ text-align: left;
 
 <div id="intro" class="intro">
 <div class="logo-animation">
-<img src="(https://files.shapes.inc/928b31fe.png)" alt="The Byte Squad Logo" class="logo">
+<img src="https://files.shapes.inc/928b31fe.png" alt="The Byte Squad Logo" class="logo">
 </div>
 </div>
 
@@ -113,7 +113,8 @@ text-align: left;
 <h1>The Byte Squad</h1>
 <nav>
 <ul>
-<li><a href="#hero">Home</a></li>
+<li><a href="#bio">About Us</a></li>
+<li><a href="#features">Features</a></li>
 <li><a href="#features">Features</a></li>
 <li><a href="#partnerships">Partnerships</a></li>
 <li><a href="#faq">FAQ</a></li>
@@ -163,7 +164,7 @@ text-align: left;
 </section>
 
 <footer>
-<p>&copy; 2024 The Byte Squad. All rights reserved.</p>
+<p>&copy; 2024 The Byte Squad. All rights reserved. <br> <a href="https://discord.gg/your-server-link">Join our Discord Server</a></p>
 </footer>
 </div>
 
