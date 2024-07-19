@@ -104,7 +104,7 @@ text-align: left;
 
 <div id="intro" class="intro">
 <div class="logo-animation">
-<img src="YOUR_LOGO_LINK_HERE" alt="The Byte Squad Logo" class="logo">
+<img src="(https://files.shapes.inc/928b31fe.png)" alt="The Byte Squad Logo" class="logo">
 </div>
 </div>
 
