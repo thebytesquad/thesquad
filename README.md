@@ -10,8 +10,8 @@ margin: 0;
 padding: 0;
 overflow: hidden;
 font-family: Arial, sans-serif;
-background-color: #f4f4f4;
-color: #333;
+background-color: #1a1a1a;
+color: #ccc;
 }
 .intro {
 display: flex;
@@ -41,6 +41,7 @@ display: none;
 opacity: 0;
 overflow: auto;
 height: 100vh;
+background-color: #1a1a1a;
 }
 .show {
 display: block;
@@ -75,13 +76,15 @@ padding: 50px 20px;
 text-align: center;
 }
 #hero {
-background-color: #61dafb;
+background-color: #282c34;
 }
 #features {
-background-color: #f1f1f1;
+background-color: #333;
+color: #ccc;
 }
 #partnerships, #faq, #terms, #privacy, #contact {
-background-color: #e2e2e2;
+background-color: #414141;
+color: #ccc;
 }
 footer {
 background-color: #333;
@@ -177,7 +180,6 @@ mainContent.classList.add('show');
 }, 1000);
 });
 });
-
 @keyframes fadeOut {
 to { opacity: 0; }
 }
