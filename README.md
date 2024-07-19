@@ -80,7 +80,7 @@ background-color: #61dafb;
 #features {
 background-color: #f1f1f1;
 }
-#partnerships, #team, #faq, #terms, #privacy, #contact {
+#partnerships, #faq, #terms, #privacy, #contact {
 background-color: #e2e2e2;
 }
 footer {
@@ -101,7 +101,7 @@ text-align: left;
 
 <div id="intro" class="intro">
 <div class="logo-animation">
-<img src="(https://files.shapes.inc/928b31fe.png)" alt="The Byte Squad Logo" class="logo">
+<img src="YOUR_LOGO_LINK_HERE" alt="The Byte Squad Logo" class="logo">
 </div>
 </div>
 
@@ -113,7 +113,6 @@ text-align: left;
 <li><a href="#hero">Home</a></li>
 <li><a href="#features">Features</a></li>
 <li><a href="#partnerships">Partnerships</a></li>
-<li><a href="#team">Team</a></li>
 <li><a href="#faq">FAQ</a></li>
 <li><a href="#terms">Terms</a></li>
 <li><a href="#privacy">Privacy</a></li>
@@ -135,11 +134,6 @@ text-align: left;
 <section id="partnerships">
 <h2>Partnerships</h2>
 <p>Collaborate with industry leaders and grow together.</p>
-</section>
-
-<section id="team">
-<h2>Our Team</h2>
-<p>Meet the amazing people behind The Byte Squad.</p>
 </section>
 
 <section id="faq">
