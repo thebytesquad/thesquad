@@ -138,7 +138,7 @@ animation: fadeIn 2s forwards;
 </section>
 
 <footer>
-<p>&copy; 2024 The Byte Squad. All rights reserved. <br> <a href=(https://discord.gg/CN7TaKbmqc)">Join our Discord Server</a></p>
+<p>&copy; 2024 The Byte Squad. All rights reserved. <br> <a href="(https://discord.gg/CN7TaKbmqc)">Join our Discord Server</a></p>
 </footer>
 
 <script>
